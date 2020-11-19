@@ -1,0 +1,60 @@
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+.container{
+    border: 3px solid red;
+    width: 1000px;
+    height: 900px;
+}
+
+.header{
+    position: absolute;
+}
+
+nav{
+   display: inline block;
+   background-color: #222931;
+   width: 950px;
+   height: 30px;
+   padding-top: 20px;
+}
+
+.header nav > a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.mainHeader > img{
+   width: 1000px;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+
+.bannerItems > img{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    padding-left: 10px;
+    width: 250px;
+}
+
+p:nth-of-type(1){
+    position: relative;
+    font-size: 34px;
+    left: 80px;
+}
+
+p:nth-of-type(2){
+   position: absolute;
+}
+
+hr{
+    position: relative;
+    top: 120px;
+    height: 130px;
+    width: 1000px;
+    background-color: #ffe718;
+}
