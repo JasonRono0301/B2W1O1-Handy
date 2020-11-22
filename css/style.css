@@ -1,42 +1,42 @@
 body{
     font-family: 'Archivo', sans-serif;
+    margin: 0;
 }
 
 .container{
-    border: 3px solid red;
     width: 1000px;
-    height: 900px;
 }
 
 .header{
     position: absolute;
+    left: 30px;
 }
 
 nav{
-   display: inline block;
+   display: block;
    background-color: #222931;
    width: 950px;
    height: 30px;
    padding-top: 20px;
 }
 
-.header nav > a{
+.header > nav > a{
+    display: inline block;
     padding-left: 20px;
     text-decoration: none;
     color: white;
 }
 
+nav a:hover{
+    background-color: #ffe718;
+    color: black;
+}
+
 .mainHeader > img{
-   width: 1000px;
+   width: 100%;
     position: relative;
     top: 70px;
     z-index: -1;
-}
-
-.mainHeader img:hover{
-    color:  gray;
-    opacity: 0.5;
-    transition: 2s;
 }
 
 .bannerItems > img{
@@ -48,13 +48,71 @@ nav{
 }
 
 .ribbon{
-    border: 2px solid red;
     background-color: #ffe718;
-    height: 40px;
+    height: 100px;
+    position: relative;
+    top: 100px;
 }
 
-.ribbon > p{
-    display: inline;
-    position: relative;
-    
+.ribbonTekst{
+    margin: 40px 0 0 80px;
+    padding-top: 30px;
 }
+
+.ribbonTekst > p{
+    display: inline;
+}
+
+.ribbonTekst > p:nth-of-type(1){
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.ribbonTekst > p:nth-of-type(2){
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.ribbonTekst > p:nth-of-type(3){
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 12px 25px 12px 25px;
+    margin-left: 150px;
+}
+
+.ribbonTekst > .ribbonKnop:hover{
+    background-color: #222931;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footerImage > img{
+    position: relative;
+    top: 150px;
+    width: 1000px;
+}
+
+.blokken{
+    position: relative;
+    top: 160px;
+    margin-left: 100px;
+}
+
+.blokken > .blokjes > div{
+    display: inline;
+    background-color:  #ffe718 ;
+    padding-left: 250px;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.blokken > .blokjes > div:hover{
+    background-color: #222931;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
