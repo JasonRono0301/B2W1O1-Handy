@@ -33,6 +33,12 @@ nav{
     z-index: -1;
 }
 
+.mainHeader img:hover{
+    color:  gray;
+    opacity: 0.5;
+    transition: 2s;
+}
+
 .bannerItems > img{
     position: relative;
     top: 100px;
@@ -41,20 +47,14 @@ nav{
     width: 250px;
 }
 
-p:nth-of-type(1){
-    position: relative;
-    font-size: 34px;
-    left: 80px;
-}
-
-p:nth-of-type(2){
-   position: absolute;
-}
-
-hr{
-    position: relative;
-    top: 120px;
-    height: 130px;
-    width: 1000px;
+.ribbon{
+    border: 2px solid red;
     background-color: #ffe718;
+    height: 40px;
+}
+
+.ribbon > p{
+    display: inline;
+    position: relative;
+    
 }
